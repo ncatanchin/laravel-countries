@@ -1,9 +1,8 @@
 <?php
 
-namespace Bhuvidya\Countries;
+namespace Catanchin\Countries;
 
 use Illuminate\Support\ServiceProvider;
-use Bhuvidya\Countries\MakeSeederCommand;
 
 class CountriesServiceProvider extends ServiceProvider
 {
