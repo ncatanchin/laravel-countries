@@ -16,7 +16,7 @@ class CreateCountriesTable extends Migration
     {
         Schema::disableForeignKeyConstraints();
 
-        Schema::dropIfExists(config('countries.table_name');
+        Schema::dropIfExists(config('countries.table_name'));
 
         // Creates the users table
         Schema::create(config('countries.table_name'), function (Blueprint $table) {
